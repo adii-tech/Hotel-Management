@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_lists",
+  "info": {
+    "singularName": "user-list",
+    "pluralName": "user-lists",
+    "displayName": "UserList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "integer"
+    },
+    "rooms": {
+      "type": "enumeration",
+      "enum": [
+        "Double",
+        "Single",
+        "Queen room",
+        "Hospitality room"
+      ]
+    },
+    "sdate": {
+      "type": "date"
+    },
+    "edate": {
+      "type": "date"
+    }
+  }
+}

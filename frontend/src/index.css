@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --shadow:0px 0px 30px 8px rgba(185, 185, 185, 0.75);
+  --colure:#364470;
+  --text-color:#7d7e80;
+}
+.root{
+  margin: 0;
+  padding: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(238, 238, 241, 0.644);
+    font-family: 'Preahvihear', sans-serif;
+    color:var(--colure);
+}
+h1{
+  font-family: 'Signika Negative', sans-serif;
+}

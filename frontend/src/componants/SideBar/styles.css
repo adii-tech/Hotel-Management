@@ -1,0 +1,36 @@
+.aside{
+   width: 5%;
+   height: 100%;
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2vw;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+ul >li{
+    list-style: none;
+}
+.logo{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.lo{
+    width: 2vw;
+    height: 2vw;
+}
+.icons >li{
+    cursor: pointer;
+}
+.anticon:hover{
+    color: black !important;
+  }

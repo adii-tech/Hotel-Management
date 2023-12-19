@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campaigns",
+  "info": {
+    "singularName": "campaign",
+    "pluralName": "campaigns",
+    "displayName": "Campaign"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "roombooked": {
+      "type": "integer"
+    },
+    "roomvisited": {
+      "type": "integer"
+    }
+  }
+}

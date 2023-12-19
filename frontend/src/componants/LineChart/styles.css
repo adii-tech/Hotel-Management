@@ -1,0 +1,6 @@
+.chart-container{
+    box-shadow: var(--shadow);
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 57vw;
+}
