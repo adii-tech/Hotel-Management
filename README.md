@@ -20,14 +20,13 @@ APP_KEYS=KdMBSrVJ0dqXUNVg/1tcJw==,NkiuRq8FkofKGqxMvl/0GQ==,t6wBRzcDdwfRUlhcKoDrv
 API_TOKEN_SALT=DYnIQwcA18nDUh6SNezLnQ==
 ADMIN_JWT_SECRET=nCSLrYgUBW/hAxHe7RDZnw==
 TRANSFER_TOKEN_SALT=Fc85Ub4WvKrsCIoCN9F1Yg==
-# Database
+#Database
 DATABASE_CLIENT=sqlite
 DATABASE_FILENAME=.tmp/data.db
 JWT_SECRET=Himg0NNc+m/KfRYNNQbF3g==
 
 
-5.How to run:
-## Usage
+## How to run:
 1.Run command for frontend `npm run dev`
 2.Run command for backend `npm run develope`
 3.Open your browser and go to [http://localhost:5173/](http://localhost:5173/)
